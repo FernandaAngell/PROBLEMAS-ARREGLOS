@@ -3,6 +3,18 @@
 #FUNDAMENTOS DE PROGRAMACION
 #CODIGO FUENTE: AUTORIA PROPIA
 
+#Desarrolle un programa que permita trabajar con una matriz cuadrada cuya dimensión será definida por el usuario.
+#Recuerde que una matriz cuadrada tiene el mismo número de filas y columnas.
+#Los elementos de la matriz deben cumplir las siguientes condiciones:
+#• Ser números enteros.
+#• Tener exactamente cuatro cifras (es decir, estar en el rango de 1000 a 9999).
+#El programa debe realizar las siguientes operaciones:
+#1)Identificar el número mayor y el número menor dentro de la matriz.
+#- Calcular la suma de estos dos valores.
+#- Determinar si el resultado obtenido es un número capicúa (es decir, se lee igual de izquierda a derecha que de derecha a izquierda).
+#2)Calcular la sumatoria de todos los números pares presentes en la matriz.
+#- Convertir el valor total de esta sumatoria a su representación binaria y mostrarla en pantalla.
+
 # Solicitar tamaño
 n = int(input("Ingrese la dimensión de la matriz (n x n): "))
 
@@ -67,3 +79,5 @@ else:
 
 print(f"\nSuma de números pares: {suma_pares}")
 print(f"En binario: {binario}")
+
+#Realizado por Maria Fernanda Tolosa Angel
