@@ -3,6 +3,46 @@
 #Porgrama: Fundamentos de programación
 #Código Fuente: Autoría propia
 
+#Una pizzería desea desarrollar una aplicación para
+#automatizar el proceso de ventas en el año 2026. La pizzería ofrece 5
+#tipos de pizza, cada una con un tamaño y precio específico, según la
+#siguiente información,
+#Tipo Tamaño Porciones Precio
+#1 Pequeña (2 porciones) $10.000
+#2 Mediana (4 porciones) $15.000
+#3 Larga (6 porciones) $20.000
+#4 Familiar (8 porciones) $25.000
+#5 Extra Familiar (12 porciones) $35.000
+#Requisitos del programa
+#1. El sistema debe permitir atender a un número X de clientes.
+#2. Cada cliente puede comprar varios tipos de pizza en una
+#misma orden.
+#- Por ejemplo: un cliente elige Pequeña (tipo 1), Larga (tipo 3) y
+#Familiar (tipo 4).
+#El precio total será $55.000 y el número total de porciones será 16.
+#3. Al finalizar todas las ventas, el programa debe mostrar:
+#- Cantidad total de pizzas vendidas por tipo.
+#- Valor total de las ventas.
+#- Número total de porciones vendidas.
+#Al finalizar, el sistema debe mostrar los siguientes resultados:
+#- Cantidad de pizzas vendidas por tipo.
+#- Precio total de las pizzas vendidas.
+#- El número total de porciones vendidas.
+#La pizzería usa una base de datos basada en Arreglos de la siguiente
+#forma:
+#Arreglo con el precio de las pizzas:
+#- posición 1 representa la pizza Pequeña (tipo 1) y tiene el valor de 10000
+#- posición 2 representa la pizza Mediana (tipo 2) y tiene el valor de 15000
+#- posición 3 representa la pizza Larga (tipo 3) y tiene el valor de 20000
+#- posición 4 representa la pizza Familiar (tipo 4) y tiene el valor de 25000
+#- posición 5 representa la pizza Extra Familiar (tipo 5) y tiene el valor de 35000
+#Arreglo con el número de porciones de las pizzas:
+#- posición 1 representa la pizza Pequeña (tipo 1) y tiene el valor de 2 porciones
+#- posición 2 representa la pizza Mediana (tipo 2) y tiene el valor de 4 porciones
+#- posición 3 representa la pizza Larga (tipo 3) y tiene el valor de 6 porciones
+#- posición 4 representa la pizza Familiar (tipo 4) y tiene el valor de 8 porciones
+#- posición 5 representa la pizza Extra Familiar (tipo 5) y tiene el valor de 12 porciones
+
 def mostrar_menu():
     print("\n=== MENÚ DE PIZZAS ===")
     print("1. Pequeña  (2 porciones)  - $10.000")
@@ -74,3 +114,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#Realizado por Maria Fernanda Tolosa Angel
