@@ -1,3 +1,8 @@
+
+#MARIA FERNANDA TOLOSA ANGEL
+#FUNDAMENTOS DE PROGRAMACION
+#CODIGO FUENTE: AUTORIA PROPIA
+
 # Cantidad de pacientes
 n = int(input("Ingrese la cantidad de pacientes: "))
 
