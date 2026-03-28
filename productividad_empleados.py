@@ -3,6 +3,19 @@
 #FUNDAMENTOS DE PROGRAMACION
 #CODIGO FUENTE: AUTORIA PROPIA
 
+#Se requiere desarrollar un programa que permita analizar la productividad de un equipo conformado por 4 empleados durante 3 días.
+#Para ello, se deben representar los datos en dos matrices:
+#- Matriz A: Contiene la cantidad de tareas completadas por cada empleado en cada día (números enteros mayores que 0).
+#- Matriz B: Contiene el tiempo promedio en minutos que cada
+#empleado tarda en completar una tarea en esos mismos días (números enteros mayores que 0).
+#El objetivo es calcular una tercera matriz C, donde cada elemento
+#represente el tiempo total trabajado por cada empleado en cada día.
+#La operación para obtener cada elemento será el producto elemento a elemento (no multiplicación matricial tradicional), es decir: Cij=Aij×Bij
+#El programa debe mostrar:
+#- La matriz C completa, con el tiempo total trabajado (en minutos) por cada empleado en cada día.
+#- Qué empleado acumuló más tiempo de trabajo sumando sus tres días.
+#- Qué día registró el mayor tiempo total considerando a todos los empleados.
+
 # Dimensiones
 empleados = 4
 dias = 3
@@ -78,3 +91,5 @@ max_dia = total_dia.index(max(total_dia)) + 1
 print("\n=== RESULTADOS ===")
 print(f"Empleado con más tiempo trabajado: Empleado {max_empleado}")
 print(f"Día con mayor tiempo total: Día {max_dia}")
+
+#Realizado por Maria Fernanda Tolosa Angel
