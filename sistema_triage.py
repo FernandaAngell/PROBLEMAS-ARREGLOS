@@ -3,6 +3,27 @@
 #FUNDAMENTOS DE PROGRAMACION
 #CODIGO FUENTE: AUTORIA PROPIA
 
+#En una entidad de salud, se requiere que se atiendan los n
+#pacientes que llegan en el transcurso de la noche, de acuerdo al triage
+#que reporte el médico asignado a la valoración, para ello se maneja la
+#siguiente tabla de clasificación:
+#Nivel de urgencia Tipo de urgencia Tiempo de atención
+#1 resucitación Inmediatamente
+#2 emergencia 15 min
+#3 urgencia 60 min
+#4 urgencia menor 2 horas
+#5 sin urgencia 4 horas
+#Para el ingreso a la entidad se debe solicitar los datos personales:
+#nombre completo, edad, eps y nivel de urgencia (triage), el programa
+#debe mostrar al finalizar:
+#- ¿Cuántos pacientes fueron atendidos?
+#- ¿Si hay un sólo médico de turno, cuánto tiempo le tardará atender
+#a todos los pacientes?
+#- ¿Cuál es el nivel de urgencia que se presenta con mayor frecuencia?
+#- El promedio de las edades del triage 3.
+#- Organizar en un arreglo los nombres de los pacientes de triage 1 e imprimir el arreglo.
+
+
 # Cantidad de pacientes
 n = int(input("Ingrese la cantidad de pacientes: "))
 
@@ -75,3 +96,5 @@ print(f"Promedio de edades (triage 3): {promedio_t3:.2f}")
 # 5. Lista triage 1
 print("\nPacientes triage 1:")
 print(pacientes_t1)
+
+#Realizado por Maria Fernanda Tolosa Angel
